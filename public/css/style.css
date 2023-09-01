@@ -1,0 +1,268 @@
+* {
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -webkit-user-modify: none;
+    -moz-user-drag: none;
+    -moz-user-select: none;
+    -moz-user-modify: none;
+    -mz-user-drag: none;
+    -mz-user-select: none;
+    -mz-user-modify: none;
+    -o-user-drag: none;
+    -o-user-select: none;
+    -o-user-modify: none;
+}
+
+body {
+    background: #1B1F23;
+    color: white;
+}
+
+/*Inicio do css do Login*/
+
+
+div#botoes {
+    text-align: center;
+}
+
+#mainLogin {
+    margin: 100px auto;
+    width: 650px;
+    height: 420px;
+    background: #2D3136;
+    color: white;
+    border: none;
+    border-radius: 18px;
+}
+#mainLogin #imagemLogin {
+    width: 325px;
+    height: 420px;
+    border-radius: 10px;
+}
+#mainLogin #imagemLogin img {
+    height: 200px;
+    width: 200px;
+    margin-left: 21%;
+    margin-top: 30%;
+}
+#mainLogin form {
+    text-align: center;
+    margin: auto;
+    width: 325px;
+    height: 400px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+
+}
+#mainLogin form .input-group {
+    justify-content: center;
+}
+#mainLogin form input[type=text],
+#mainLogin form input[type=password] {
+    background: #1B1F23;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+
+}
+#mainLogin form  button[type=submit] {
+    width: 75%;
+}
+#mainLogin form a {
+    font-size: 8pt;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+#mainLogin form a:hover {
+    font-style: italic;
+    color: white;
+    text-decoration: underline;
+}
+#mainLogin form .input-group-prepend span {
+    background: #1B1F23;
+    border: none;
+}
+
+@media screen and (max-width: 600px){
+    #mainLogin {
+        margin: 100px auto;
+        width: 80%;
+        height: 420px;
+        background: #2D3136;
+        color: white;
+        border: none;
+        border-radius: 18px;
+    }
+    #mainLogin #imagemLogin {
+        display: none;
+    }
+
+}
+
+
+/*Fim do css do Login*/
+
+/*inicio do css do Cadastro*/
+
+form#mainCadastro {
+    margin: 50px auto;
+    width: 550px;
+    background: #2D3136;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+form#mainCadastro a {
+    font-size: 8pt;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+}
+form#mainCadastro a:hover {
+    font-style: italic;
+    color: white;
+    text-decoration: underline;
+}
+form#mainCadastro .input-group-prepend span {
+    background: #1B1F23;
+    border: none;
+}
+form#mainCadastro input[type=text],
+form#mainCadastro input[type=password]{
+    background: #1B1F23;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    color: white;
+}
+form#mainCadastro input[type=tel].form-control,
+form#mainCadastro input[type=email].form-control,
+form#mainCadastro input[type=file].form-control{
+    background: #1B1F23;
+    border: none;
+    outline: 1px !important;
+    padding-left: 15px;
+    color: white;
+    
+}
+
+@media screen and (max-width: 600px){
+    form#mainCadastro {
+        margin: 15px auto;
+        width: 88%;
+        background: #2D3136;
+        text-align: center;
+        justify-content: center;
+        border-radius: 10px;
+        padding-left: 30px;
+    }
+    form#mainCadastro input[type=text],
+    form#mainCadastro input[type=password],
+    form#mainCadastro input[type=tel],
+    form#mainCadastro input[type=email],
+    form#mainCadastro input[type=number],
+    form#mainCadastro input[type=file]{
+        background: #1B1F23;
+        border: none;
+        outline: none;
+        padding-left: 15px;
+        width: 50%;
+    }
+
+    form#mainCadastro .input-group ,
+    form#mainCadastro .input-group {
+        width: 85%;
+
+    }
+    form#mainCadastro .form-inline .input-group {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    form#mainCadastro a {
+        float: left;
+    }
+}
+
+/*Fim do css de Cadastro*/
+
+
+
+/*inicio do css do Header do Utilizador*/
+
+header#utilizador a {
+    text-decoration: none;
+    color: white;
+}
+
+header#utilizador #perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+
+}
+
+/*Fim do css do Header do Utilizador*/
+
+
+/*inicio do css do Footer do Utilizador*/
+
+
+/*Fim do css do Footer do Utilizador*/
+
+
+/*inicio do css do Main do Professor*/
+
+nav#professorNav {
+    border-radius: 10px;
+}
+main#mainProfessor .row img{
+    width: 100%;
+}
+div#prova input[type="text"] {
+    outline: none;
+}
+#questaoHidden, #alternativaHidden {
+    display: none;
+}
+
+/*Fim do css do Main do Professor*/
+
+
+/*inicio do css do Main do Estudante*/
+
+nav#estudanteNav {
+    border-radius: 10px;
+}
+main#mainEstudante .row img{
+    width: 100%;
+}
+#formEstudante #numeros{
+    border-radius: 20px;
+    background: rgb(93, 93, 141);
+    color: aliceblue;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#formEstudante input[type="radio"]{
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+}
+
+
+/*Fim do css do Main do Estudante*/
